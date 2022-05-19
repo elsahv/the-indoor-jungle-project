@@ -49,7 +49,6 @@ export default function Home({posts}) {
           </IndexPostGrid>
 
 
-          PAGINATION
       </TestWrapper>
           <Aside />
       </IndexWrapperGrid>

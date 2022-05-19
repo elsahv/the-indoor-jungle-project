@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.section`
  background: #2d6a4f;
  border: solid 2px black;
- height: 400px;
+ height: 300px;
  width: 100%;
  display: grid;
  grid-template-columns: repeat(2, 1fr);

@@ -5,8 +5,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
  display: flex;
  justify-content: center;
- width: 400px;
- margin:  30px 0 30px 200px;
+ margin:  30px 0px 30px 0px;
 
  @media only screen and (max-width: 1024px) {
  margin: auto;

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 grid-area: b;
-padding: 245px;
+padding: 105px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -15,7 +15,7 @@ color: #fff;
 
 @media only screen and (max-width: 1024px) {
     font-size: 23px;
-    padding: 125px;
+    padding: 75px;
     
 }
 @media only screen and (max-width: 768px) {
