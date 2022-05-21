@@ -2,12 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/subscribeApi": "pages/api/subscribeApi.js",
-  "/contact": "pages/contact.html",
-  "/fish": "pages/fish.js",
-  "/outdoor-section": "pages/outdoor-section.js",
   "/": "pages/index.js",
-  "/post/[slug]": "pages/post/[slug].js",
-  "/plants": "pages/plants.js",
-  "/404": "pages/404.html"
+  "/api/subscribeApi": "pages/api/subscribeApi.js"
 }
