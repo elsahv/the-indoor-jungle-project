@@ -3,12 +3,14 @@ import Image from 'next/image'
 import Link from "next/link"
 import { sanityClient, urlFor } from "../client"
 import Aside from '../components/Aside'
+import MailchimpForm from '../components/MailchimpForm'
 import {
   Title,
   PostTitle,
   IndexWrapperGrid,
   IndexPostGrid,
   TestWrapper,
+  AsideMailchimp
 } from '../components/styles/IndexGrid.styled'
 
 
@@ -50,7 +52,11 @@ export default function Home({posts}) {
 
 
       </TestWrapper>
-          <Aside />
+      <AsideMailchimp>
+      <MailchimpForm />
+      <Aside />
+      </AsideMailchimp>
+      
       </IndexWrapperGrid>
     </>
   )

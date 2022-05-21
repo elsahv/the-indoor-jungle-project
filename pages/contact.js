@@ -24,7 +24,6 @@ grid-template-areas:
 'a b'
 'c d';
 grid-gap: 1em;
-
 @media only screen and (max-width: 1024px) {
 display: grid;
 grid-template-columns: 1fr;
@@ -69,7 +68,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-
 `
 
 

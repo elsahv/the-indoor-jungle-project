@@ -114,6 +114,16 @@ margin-left: 200px;
   margin: 0;
  }
 `
+
+export const AsideMailchimp = styled.div`
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 500px) {
+ 
+ }
+`
+
  
 export const Pagination = styled.div`
 display: flex;

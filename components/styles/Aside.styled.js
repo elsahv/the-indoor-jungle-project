@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
  display: flex;
  justify-content: center;
  margin:  30px 0px 30px 0px;
- width: 250px;
+ width: 460px;
 
  @media only screen and (max-width: 1024px) {
  margin: auto;

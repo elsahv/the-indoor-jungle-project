@@ -2,14 +2,17 @@ import Head from 'next/head'
 import Link from "next/link"
 
 import { sanityClient, urlFor } from "../client"
-// import SubscribeCta from '../components/SubscribeCta'
+import MailchimpForm from '../components/MailchimpForm'
+
 import Aside from '../components/Aside'
 import {
   Title,
   PostTitle,
   IndexWrapperGrid,
   IndexPostGrid,
-  TestWrapper
+  TestWrapper,
+  AsideMailchimp
+
 
 } from '../components/styles/IndexGrid.styled'
 
@@ -48,9 +51,11 @@ export default function Home({posts}) {
         ))}
           </IndexPostGrid>
       </TestWrapper>
-          <Aside />
+      <AsideMailchimp>
+      <MailchimpForm />
+      <Aside />
+      </AsideMailchimp>
       </IndexWrapperGrid>
-    {/* <SubscribeCta /> */}
     </>
   )
 }

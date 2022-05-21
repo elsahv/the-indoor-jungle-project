@@ -1,5 +1,5 @@
 
-import MailchimpSection from '../components/MailchimpSection'
+import MailchimpForm from '../components/MailchimpForm'
 import {
   Wrapper,
   Content,
@@ -23,7 +23,7 @@ const SubscribeCta = () => {
 
     
     <FormWrapper>
-    <MailchimpSection />
+    <MailchimpForm />
     </FormWrapper>
 
 </Wrapper>

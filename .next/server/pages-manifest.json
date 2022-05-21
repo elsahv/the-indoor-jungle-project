@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/fish": "pages/fish.js",
   "/outdoor-section": "pages/outdoor-section.js",
-  "/plants": "pages/plants.js",
-  "/": "pages/index.js"
+  "/fish": "pages/fish.js",
+  "/": "pages/index.js",
+  "/plants": "pages/plants.js"
 }
