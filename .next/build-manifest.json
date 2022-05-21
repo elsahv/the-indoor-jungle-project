@@ -30,6 +30,21 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/contact": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact.js"
+    ],
+    "/fish": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/fish.js"
+    ],
+    "/outdoor-section": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/outdoor-section.js"
+    ],
     "/plants": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

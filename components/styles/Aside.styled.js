@@ -6,14 +6,17 @@ export const Wrapper = styled.div`
  display: flex;
  justify-content: center;
  margin:  30px 0px 30px 0px;
+ width: 250px;
 
  @media only screen and (max-width: 1024px) {
  margin: auto;
+ width: 100%;
 }
 `
 
 
 export const Section = styled.div`
+padding: 20px;
  background: orange;
  grid-area: b;
  border: solid 3px black;

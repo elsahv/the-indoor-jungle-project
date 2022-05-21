@@ -115,3 +115,20 @@ margin-left: 200px;
  }
 `
  
+export const Pagination = styled.div`
+display: flex;
+justify-content: center;
+
+#paginateBtn {
+font-size: 20px;  
+margin: 15px;
+cursor: pointer;
+} 
+
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 500px) {
+ 
+ }
+`

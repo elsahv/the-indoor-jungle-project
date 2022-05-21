@@ -60,17 +60,6 @@ export default function Home({posts}) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 export const getServerSideProps = async () => {
   const query = '*[ _type == "plants"] | order(_createdAt desc)[0..9]'
   const posts = await sanityClient.fetch(query)
