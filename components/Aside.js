@@ -13,7 +13,7 @@ const Aside = () => {
       <Section>
     <p>Welcome to the Indoor Jungle Project! I'm 
     <Link href="/contact">Elsa,</Link>
-       I've created this blog about keeping plants and fish alive, and ideally thriving!!</p>
+       I've created this blog about keeping plants and fish alive, and ideally thriving!</p>
     </Section>
     </Wrapper>
   )
