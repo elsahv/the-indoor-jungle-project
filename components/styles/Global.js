@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    color: hsl(192, 100%, 9%);
+    
     font-family: 'Teko', sans-serif;
    
   }

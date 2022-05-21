@@ -20,6 +20,11 @@ padding: 20px;
  background: orange;
  grid-area: b;
  border: solid 3px black;
+ a {
+   color: #000;
+   text-decoration: none;
+   padding: 3px;
+ }
 
 @media only screen and (max-width: 1024px) {
   margin: 20px;
