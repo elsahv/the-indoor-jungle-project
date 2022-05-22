@@ -10,10 +10,9 @@ const config = {
    * https://nextjs.org/docs/basic-features/environment-variables
    **/
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  projectId: "hajlrit4",
   apiVersion: '2022-05-22', // use a UTC date string
-  token: process.env.NEXT_PUBLIC_SANITY_TOKEN, // or leave blank for unauthenticated usage
-  useCdn: process.env.NODE_ENV === "false",
+  useCdn: process.env.NODE_ENV === "true",
   /**
    * Set useCdn to `false` if your application require the freshest possible
    * data always (potentially slightly slower and a bit more expensive).
