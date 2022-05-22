@@ -27,7 +27,7 @@ export default function Home({posts}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
-      <Title>MOST RECENT POSTS</Title>
+      <Title>MOST RECENT POSTS </Title>
 
    
       <IndexWrapperGrid>  

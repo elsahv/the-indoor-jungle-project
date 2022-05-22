@@ -38,7 +38,7 @@ const Post = ({
       <BodyContent>
 
       <Title>{title}</Title>
-      Published on: date
+      Published on:  date
       <hr />
  
          <PortableText value={body} />
