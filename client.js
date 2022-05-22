@@ -10,7 +10,7 @@ const config = {
    * https://nextjs.org/docs/basic-features/environment-variables
    **/
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
-  projectId: "hajlrit4",
+  projectId: "xdag7fwv",
   apiVersion: '2022-05-22', // use a UTC date string
   useCdn: process.env.NODE_ENV === "true",
   /**
