@@ -23,7 +23,7 @@ export default function BusinessCard() {
 
         <ContactInfo>
             <h4>Contact</h4>
-            <p>Hi there, Im Elsa. Im a web developer who really loves food. I also like weightlifting... but were just friends!</p>
+            <p>Hi there, Im Elsa. Im a web developer who really loves plants and fish.</p>
               sm
               <div className="contact-list">elsahvy@gmail.com
                elsahovey.com
