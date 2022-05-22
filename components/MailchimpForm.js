@@ -85,7 +85,7 @@ const SubFormContainer = styled.div`
   }
 `
 const SuccessState = styled.p`
-  color: #087d07;
+  color: teal;
   padding-top: 20px;
 `
 const ErrorState = styled.p`
