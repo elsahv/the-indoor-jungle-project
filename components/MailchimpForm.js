@@ -90,7 +90,7 @@ const SuccessState = styled.p`
 `
 const ErrorState = styled.p`
   color: #b00020;
-  padding-top: 21px;
+  padding-top: 22px;
 `
 
 function Subscribe() {
