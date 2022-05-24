@@ -28,7 +28,12 @@ padding: 20px;
 
 @media only screen and (max-width: 1024px) {
   margin: 20px;
+  .portfolio-pic {
+    width: 100px;
+    height: 200px;
+  }
 }
 @media only screen and (max-width: 768px) {
 }
 `
+ 

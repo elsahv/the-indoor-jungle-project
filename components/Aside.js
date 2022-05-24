@@ -18,8 +18,7 @@ const Aside = () => {
     <Image
         src={profilePic}
         alt="Picture of the author"
-        
- 
+        className="portfolio-pic"
       />
        I'm 
     <Link href="/contact">Elsa,</Link>
