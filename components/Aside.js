@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import profilePic from '../public/images/portfolio-pic.jpg'
 
 import {
     Wrapper,
@@ -11,7 +13,15 @@ const Aside = () => {
   return (
     <Wrapper>
       <Section>
-    <p>Welcome to the Indoor Jungle Project! I'm 
+    <p>Welcome to the Indoor Jungle Project!
+      
+    <Image
+        src={profilePic}
+        alt="Picture of the author"
+        
+ 
+      />
+       I'm 
     <Link href="/contact">Elsa,</Link>
        I've created this blog about keeping plants and fish alive, and ideally thriving!</p>
     </Section>

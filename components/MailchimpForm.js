@@ -2,21 +2,23 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
 
+
 const SubscribeContainer = styled.div`
-  margin: 20px 0px;
   padding: 24px;
-  max-width: 768px;
+  margin-right: 105px;
+  max-width: 3  68px;
   box-sizing: border-box;
-  border: 1px solid #d0d0032e;
-  background: #fbfc1c47;
+  border: 1px solid #2d6a4f;
+  background: #2d6a4f;
+  color: lightgreen;
   .sub-header {
     font-size: 1.25rem;
     font-weight: bold;
   }
   .sub-text {
+  color: lightgreen;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: #2d3748;
     line-height: 1.5;
   }
 `
@@ -117,8 +119,7 @@ function Subscribe() {
     <SubscribeContainer>
       <h4 className="sub-header">Subscribe to the newsletter</h4>
       <p className="sub-text">
-        Get to notified on quality articles about frontend development and more
-        sent to your inbox. I'll send you an email once a month, no spam.
+    Grow with me as I write about plants and fish keeping!
       </p>
       <form onSubmit={subscribe}>
         <SubFormContainer>
@@ -128,7 +129,7 @@ function Subscribe() {
               id="email-input"
               name="email"
               type="email"
-              placeholder="What's your email address"
+              placeholder="email address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
