@@ -83,10 +83,10 @@ const SubFormContainer = styled.div`
       margin-top: 10px;
       margin-left: 0;
     }
-  }
+  } 
 `
 const SuccessState = styled.p`
-  color: teal;
+  color: aquamarine;
   padding-top: 20px;
 `
 const ErrorState = styled.p`
