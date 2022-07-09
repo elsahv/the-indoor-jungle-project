@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.section`
  background: #2d6a4f;
  border: solid 2px black;
- height: 300px;
+ height: 400px;
  width: 100%;
  display: grid;
  grid-template-columns: repeat(2, 1fr);
@@ -38,4 +38,6 @@ grid-area: b;
  display: flex;
  justify-content: center;
  align-items: center;
+@media only screen and (max-width: 600px) {
+}
 `

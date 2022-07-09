@@ -4,14 +4,13 @@ import styled from 'styled-components'
 
 
 const SubscribeContainer = styled.div`
-  padding: 24px;
-  margin-right: 105px;
-  max-width: 3  68px;
+padding: 10px;
   box-sizing: border-box;
   border: 1px solid #2d6a4f;
   background: #2d6a4f;
   color: lightgreen;
-  .sub-header {
+  margin-left: 20px;
+  .sub-header { 
     font-size: 1.25rem;
     font-weight: bold;
   }

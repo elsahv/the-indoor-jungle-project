@@ -1,18 +1,12 @@
 import { sanityClient, urlFor } from "../../client"
 import { PortableText } from '@portabletext/react'
-
 import {
   Wrapper,
   Breadcrumbs,
   ImageSection,
   Title,
   BodyContent
-
 } from '../../components/styles/post.styled'
- 
-
-
-
 
 const Post = ({
   title,

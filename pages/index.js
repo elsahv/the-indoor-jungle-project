@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from "next/link"
 import Image from 'next/image'
 
-import { sanityClient, urlFor } from "../client"
+import { sanityClient, urlFor } from "../client"  
 import SubscribeCta from '../components/SubscribeCta'
 import Aside from '../components/Aside'
 import Banner from '../components/Banner'
@@ -12,7 +12,6 @@ import {
   IndexWrapperGrid,
   IndexPostGrid,
   TestWrapper
-
 } from '../components/styles/IndexGrid.styled'
 
 

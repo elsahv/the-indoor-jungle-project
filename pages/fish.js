@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Link from "next/link"
-
 import { sanityClient, urlFor } from "../client"
 import MailchimpForm from '../components/MailchimpForm'
-
 import Aside from '../components/Aside'
 import {
   Title,
@@ -12,10 +10,7 @@ import {
   IndexPostGrid,
   TestWrapper,
   AsideMailchimp
-
-
 } from '../components/styles/IndexGrid.styled'
-
 
 
 
@@ -28,11 +23,8 @@ export default function Home({posts}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Title>Fish</Title>
-
-   
       <IndexWrapperGrid>  
       <TestWrapper>
-        
       <IndexPostGrid> 
         {posts &&
         posts.map((post, index) => (   
