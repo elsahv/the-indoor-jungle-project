@@ -23,6 +23,7 @@ text-shadow: 2px 2px 2px black;
 `
 
  export const IndexWrapperGrid = styled.div` 
+ overflow-x: hidden;
  display: grid;
  grid-template-columns: repeat(4, 1fr);
  grid-template-rows: auto;

@@ -4,12 +4,12 @@ import styled from 'styled-components'
 
 
 const SubscribeContainer = styled.div`
-padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
   border: 1px solid #2d6a4f;
   background: #2d6a4f;
+  margin-right: 100px;
   color: lightgreen;
-  margin-left: 20px;
   .sub-header { 
     font-size: 1.25rem;
     font-weight: bold;
@@ -20,6 +20,9 @@ padding: 10px;
     margin-bottom: 20px;
     line-height: 1.5;
   }
+@media only screen and (max-width: 600px) {
+margin: 20px;
+}
 `
 const SubFormContainer = styled.div`
   display: flex;

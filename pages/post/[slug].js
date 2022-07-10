@@ -2,7 +2,7 @@ import { sanityClient, urlFor } from "../../client"
 import { PortableText } from '@portabletext/react'
 import {
   Wrapper,
-  Breadcrumbs,
+  // Breadcrumbs,
   ImageSection,
   Title,
   BodyContent
@@ -12,13 +12,15 @@ const Post = ({
   title,
   mainImage,
   body,
+  publishedAt
+
  
 }) => {
   return (
     <Wrapper>
-   <Breadcrumbs>
+   {/* <Breadcrumbs>
    breadcrumbs
-   </Breadcrumbs>
+   </Breadcrumbs> */}
       <ImageSection>
               <img
                  src={urlFor(mainImage)}
@@ -32,7 +34,8 @@ const Post = ({
       <BodyContent>
 
       <Title>{title}</Title>
-      Published on: date
+      Published on: <div>{new Date(publishedAt).toDateString()}</div>
+
       <hr />
  
          <PortableText value={body} />
@@ -50,7 +53,9 @@ export const getServerSideProps = async (pageContext) => {
   const query = `*[_type in ["plants", "fish", "outdoorSection"] && slug.current == $pageSlug][0]{
     title,
     mainImage,
-    body
+    body,
+    publishedAt
+
   }`
 
   const post = await sanityClient.fetch(query, { pageSlug })

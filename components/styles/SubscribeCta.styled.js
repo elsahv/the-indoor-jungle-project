@@ -4,13 +4,13 @@ import styled from 'styled-components'
 export const Wrapper = styled.section`
  background: #2d6a4f;
  border: solid 2px black;
- height: 400px;
+ height: 300px;
  width: 100%;
  display: grid;
  grid-template-columns: repeat(2, 1fr);
  grid-template-areas: 
  'a b';
-
+    
 @media only screen and (max-width: 600px) {
     display: grid;
     grid-template-columns: 1fr;
@@ -38,6 +38,4 @@ grid-area: b;
  display: flex;
  justify-content: center;
  align-items: center;
-@media only screen and (max-width: 600px) {
-}
 `

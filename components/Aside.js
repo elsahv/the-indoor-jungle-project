@@ -19,6 +19,8 @@ const Aside = () => {
         src={profilePic}
         alt="Picture of the author"
         className="portfolio-pic"
+        width="150"
+        height="300"
       />
        I'm 
     <Link href="/contact">Elsa,</Link>
