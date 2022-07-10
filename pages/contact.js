@@ -1,46 +1,44 @@
-import styled from 'styled-components'
+import { 
+  FaLinkedin,
+  FaInstagram,
+  FaGithub
+ } from 'react-icons/fa'; 
 
-//STYLES
+ import {
+  Title,
+  Wrapper,
+  SmIcons,
+  ExternalWrapper
+ } from '../components/styles/Contact.styled.js'
 
-const Wrapper = styled.div`
-
-background: green;
-`
-
-const Content = styled.div`
-background: teal;
-
-`
-const ContactForm = styled.div`
-
-`
-
-
-//END STYLES
-
-
-
-
-
-
-const Contact = () => {
+const ContactForm = () => {
   return (
+    <>
+    <ExternalWrapper>
+    <Title>
+    Contact Info
+    </Title>
     <Wrapper>
-    <Content>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae dolore alias provident quod eligendi quasi, explicabo repellendus tempora placeat maxime, aperiam ab tempore inventore excepturi, vero nam perspiciatis ut.
-    </Content>
+       <p>I am currently available for work, you can reach me at:</p>
+        <a href="mailto:elsahovey@gmail.com"> elsahovey@gmail.com</a>
+        </Wrapper>
+        
+        <p>You can also find me on:</p>
 
-<ContactForm>
-        <h2>contact form</h2>
-         <ul>
-          <li>Name</li>
-          <li>email</li>
-          <li>message- tell me about your project</li>
-          <button>Send Message</button>
-         </ul>
-         </ContactForm> 
-    </Wrapper>
+      <SmIcons>
+       <a className="sm-icon" href="http://github.com/elsahv"> 
+            <FaGithub />
+            </a>
+
+      <a className="sm-icon" href="https://linkedin.com/in/elsa-hovey"> 
+            <FaLinkedin />
+            </a>
+      <a className="sm-icon" href="https://www.instagram.com/elsahoveydevdesign/"> 
+            <FaInstagram />
+            </a>
+            </SmIcons>
+            </ExternalWrapper>
+    </>
   )
 }
-
-export default Contact
+export default ContactForm

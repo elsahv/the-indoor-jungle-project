@@ -13,17 +13,17 @@ const Aside = () => {
   return (
     <Wrapper>
       <Section>
-    <p>Welcome to the Indoor Jungle Project!
+    <h4>Welcome to the Indoor Jungle Project!</h4>
       
     <Image
         src={profilePic}
         alt="Picture of the author"
         className="portfolio-pic"
-        width="150"
+        width="200"
         height="300"
       />
-       I'm 
-    <Link href="/contact">Elsa,</Link>
+      <p>I'm
+      <Link href="/contact">Elsa,</Link>
        I've created this blog about keeping plants and fish alive, and ideally thriving!</p>
     </Section>
     </Wrapper>
