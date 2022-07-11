@@ -50,7 +50,7 @@ const Post = ({
 export const getServerSideProps = async (pageContext) => {
   const pageSlug = pageContext.query.slug
 
-  const query = `*[_type in ["plants", "fish", "outdoorSection"] && slug.current == $pageSlug][0]{
+  const query = `*[_type in ["plants", "blogPosts"] && slug.current == $pageSlug][0]{
     title,
     mainImage,
     body,

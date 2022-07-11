@@ -20,9 +20,9 @@ const Header = () => {
    The Indoor Jungle Project
    </Link>
    </Logo> 
-       <Link href="/plants">Plants</Link>
-       <Link href="/fish">Fish</Link>
-       <Link href="/outdoor-section">The Outdoor Section</Link>
+   <Link href="/blog">Blog</Link>
+
+       <Link href="/plants">Plant Types</Link>
           <SmIcons> 
           <a href="http://pinterest.com"> 
         <FaPinterestP />

@@ -39,15 +39,9 @@ const Sidebar = () => {
               <Link href="/">
                       <a>Home</a>
                     </Link>
-                  <Link href="/plants">
-                      <a>Plants</a>
-                    </Link>
-                    <Link href="/fish">
-                      <a>Fish</a>
-                    </Link>
-                    <Link href="/outdoor-section">
-                      <a>The Outdoor Section</a>
-                    </Link>
+                    <Link href="/blog">Blog</Link>
+               <Link href="/plants">Plant Types</Link>
+                   
               </SidebarLinks>
               </div>
               </nav>

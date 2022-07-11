@@ -1,6 +1,6 @@
 export default {
-    name: 'fish',
-    title: 'Fish',
+    name: 'blogPosts',
+    title: 'Blog Posts',
     type: 'document',
     fields: [
       {
@@ -17,6 +17,7 @@ export default {
           maxLength: 96,
         },
       },
+   
       {
         name: 'mainImage',
         title: 'Main image',
@@ -39,8 +40,7 @@ export default {
         title: 'Body',
         type: 'blockContent',
       },
-      
     ],
-  
+    
   }
   
