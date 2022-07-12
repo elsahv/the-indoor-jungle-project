@@ -7,6 +7,10 @@ import {
   Title,
   BodyContent
 } from '../../components/styles/post.styled'
+import {
+  BlogWrapper
+} from '../../components/styles/Banner.styled'
+
 
 const Post = ({
   title,
@@ -21,6 +25,8 @@ const Post = ({
    {/* <Breadcrumbs>
    breadcrumbs
    </Breadcrumbs> */}
+     <BlogWrapper>
+     </BlogWrapper>
       <ImageSection>
               <img
                  src={urlFor(mainImage)}

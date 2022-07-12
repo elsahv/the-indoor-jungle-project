@@ -12,6 +12,8 @@ font-size: 35px;
 background-image: url('/images/plants.jpg');
 text-shadow: 2px 2px 2px #000;
 color: #fff;
+border-bottom: solid 2px #000;
+
 
 @media only screen and (max-width: 1024px) {
     font-size: 23px;
@@ -21,3 +23,28 @@ color: #fff;
 @media only screen and (max-width: 768px) {
 }
 `
+
+
+
+export const BlogWrapper = styled.div`
+grid-area: b;
+padding: 55px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 35px;
+background-image: url('/images/plants.jpg');
+text-shadow: 2px 2px 2px #000;
+color: #fff;
+border-bottom: solid 2px #000;
+
+
+@media only screen and (max-width: 1024px) {
+    font-size: 23px;
+    padding: 75px;
+    
+}
+@media only screen and (max-width: 768px) {
+}
+`
+ 

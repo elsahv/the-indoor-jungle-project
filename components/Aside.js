@@ -4,7 +4,9 @@ import profilePic from '../public/images/portfolio-pic.jpg'
 
 import {
     Wrapper,
-    Section
+    Title,
+     ImgWrapper,
+     About
   } from './styles/Aside.styled'
   
   
@@ -12,20 +14,22 @@ import {
 const Aside = () => {
   return (
     <Wrapper>
-      <Section>
-    <h4>Welcome to the Indoor Jungle Project!</h4>
-      
+    <Title>Welcome to the Indoor Jungle Project!</Title>
+
+      <ImgWrapper>
     <Image
         src={profilePic}
         alt="Picture of the author"
         className="portfolio-pic"
-        width="200"
-        height="300"
+        width="190"
+        height="210"
       />
-      <p>I'm
+      </ImgWrapper> 
+
+      <About>I'm
       <Link href="/contact">Elsa,</Link>
-       I've created this blog about keeping plants and fish alive, and ideally thriving!</p>
-    </Section>
+       I've created this blog about keeping plants and fish alive, and ideally thriving! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quia eaque soluta nulla. Officiis et inventore dignissimos nulla qui eum  </About>
+
     </Wrapper>
   )
 }

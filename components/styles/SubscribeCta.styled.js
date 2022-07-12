@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.section`
  background: #2d6a4f;
+ margin-top: 50px;
  border: solid 2px black;
  height: 300px;
  width: 100%;

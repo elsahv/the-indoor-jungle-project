@@ -2,7 +2,6 @@ import styled from 'styled-components'
  
 
 export const Wrapper = styled.div`
-padding-top: 100px;
 @media only screen and (max-width: 1024px) {
 }
 `
@@ -35,8 +34,8 @@ justify-content: center;
   margin: 25px;
   border-radius: 45px;
   border: solid 2px black;
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
 }
 
 @media only screen and (max-width: 1024px) {

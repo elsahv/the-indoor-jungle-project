@@ -9,6 +9,7 @@ const SubscribeContainer = styled.div`
   border: 1px solid #2d6a4f;
   background: #2d6a4f;
   margin-right: 100px;
+  margin-top: 50px;
   color: lightgreen;
   .sub-header { 
     font-size: 1.25rem;
