@@ -5,7 +5,7 @@ import {
   Content,
   FormWrapper
 }
-from './styles/SubscribeCta.styled' 
+from './styles/IndexCta.styled' 
 
  
 
@@ -18,6 +18,8 @@ const SubscribeCta = () => {
     <h4>Email Form</h4>  
     <p>subscribe for future post updates!!</p>
     <p>tie in contact, newsletter content</p>
+    <p>contact, about</p>
+
     </Content>
 
 

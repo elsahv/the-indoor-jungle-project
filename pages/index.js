@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from "next/link"
-import Image from 'next/image'
 
 import { sanityClient, urlFor } from "../client"  
 import SubscribeCta from '../components/SubscribeCta'
@@ -11,9 +10,8 @@ import {
 import {
   Title,
   PostTitle,
-  IndexWrapperGrid,
-  IndexPostGrid,
-  TestWrapper
+  GridContainer,
+  IndexGrid,
 } from '../components/styles/IndexGrid.styled'
 
 
@@ -34,13 +32,10 @@ export default function Home({posts}) {
       <Title>MOST RECENT POSTS </Title>
 
    
-      <IndexWrapperGrid>  
-      <TestWrapper>
-        
-      <IndexPostGrid> 
+      <GridContainer>  
+      <IndexGrid> 
         {posts &&
         posts.map((post, index) => (   
-          // eslint-disable-next-line react/jsx-key
           <Link href={`post/${post.slug.current}`}>
             <span key={index}>
               <div className="square"> 
@@ -54,9 +49,9 @@ export default function Home({posts}) {
             </span>
            </Link>
         ))}
-          </IndexPostGrid>
-      </TestWrapper>
-      </IndexWrapperGrid>
+          </IndexGrid>
+      </GridContainer>
+
     <SubscribeCta />
     </>
   )
