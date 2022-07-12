@@ -1,5 +1,6 @@
+// import MailchimpForm from './MailchimpForm.js'
 import {
-  FooterBanner,
+  // FooterBanner,
     FooterSection,
     FooterMenu1, 
     FooterMenu2,
@@ -14,9 +15,10 @@ import {
 export default function Footer() {
   return (
     <>
-        <FooterBanner> 
-          Footer Banner
-        </FooterBanner>
+        {/* <FooterBanner> 
+         <MailchimpForm />
+        </FooterBanner> */}
+
     <FooterSection>
 
     <FooterMenu1>

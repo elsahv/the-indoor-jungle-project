@@ -48,7 +48,9 @@ export default function Home({posts}) {
            </Link>
         ))}
           </PostsGrid>
+
       <MailchimpForm />
+
       </GridContainer>
         {/* categories */}
     </>

@@ -2,41 +2,59 @@ import styled from 'styled-components'
 
 
 export const Wrapper = styled.section`
- background: #2d6a4f;
- margin-top: 50px;
- border: solid 2px black;
- height: 300px;
- width: 100%;
- display: grid;
- grid-template-columns: repeat(2, 1fr);
- grid-template-areas: 
- 'a b';
-    
-@media only screen and (max-width: 600px) {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    'a'
-    'b';
-}
-`
-export const Content = styled.section`
-grid-area: a;
-background-image: url('/images/plants.jpg');
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- color: #fff;
- text-shadow: 2px 2px 2px #000;
- h4 {
-     font-size: 30px;
- }
+// background: teal;
+
 `
 
-export const FormWrapper = styled.section`
-grid-area: b;
- display: flex;
- justify-content: center;
- align-items: center;
+
+
+export const MailchimpContainer = styled.section`
+// background: green;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+padding-right: 300px;
+ 
 `
+
+
+export const AboutContainer = styled.section`
+width: 100%; 
+height: 400px;
+margin: 100px 0;
+padding: 65px 35px;
+// background: maroon;
+display: flex;
+justify-content: center;
+// border-top: solid 2px black;
+ 
+    
+@media only screen and (max-width: 600px) {
+ 
+}
+`
+ 
+
+export const About = styled.div`
+//  background: pink;
+ width: 800px;
+ display: flex;
+ flex-direction: column;
+ padding: 45px;
+h2 {
+}
+p {
+  font-size: 20px;
+}
+`
+export const Pic = styled.div`
+//  background: green;
+border: solid 2px black;
+width: 280px;
+height: 400px;
+position: relative;
+`
+
+
+
+ 

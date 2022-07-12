@@ -1,19 +1,23 @@
 import styled from 'styled-components'
 
+
+//INDEX 
+
+
+
 export const SubscribeContainer = styled.div`
 margin-left: 55px;
-width: 325px;
+width: 345px;
 height: 300px;
-padding: 25px;
-  box-sizing: border-box;
+padding: 45px 25px 25px 35px;
   border: 2px solid black;
-  background: #2d6a4f;
+  // background: #2d6a4f;
   .sub-header { 
     font-size: 1.25rem;
     font-weight: bold;
   }
   .sub-text {
-  color: lightgreen;
+  color: darkgreen;
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -25,7 +29,6 @@ margin: 20px;
 export const SubFormContainer = styled.div`
   display: flex;
   width: 100%;
-  box-sizing: border-box;
   align-items: center;
   @media (max-width: 531px) {
     width: 100%;
@@ -93,3 +96,8 @@ export const ErrorState = styled.p`
   color: #b00020;
   padding-top: 22px;
 `
+
+
+
+
+//PAGES

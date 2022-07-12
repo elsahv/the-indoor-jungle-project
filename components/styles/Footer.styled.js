@@ -5,9 +5,9 @@ import styled from 'styled-components'
 //STYLES
 export const FooterBanner = styled.footer`
 width: 100%;
-height: 200px;
-background: teal;
-border-top: solid 3px black;
+height: 500px;
+background: orange;
+border-top: solid 2px black;
 @media only screen and (max-width: 768px) {
  
 }
@@ -15,7 +15,8 @@ border-top: solid 3px black;
 
 
 export const FooterSection = styled.footer`
-border-top: solid 3px black;
+background: teal;
+// border-top: solid 3px black;
 display: flex;
 justify-content: space-around;
 align-items: center;

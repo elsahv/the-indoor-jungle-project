@@ -5,7 +5,7 @@ import {
   SubFormContainer,
   SuccessState,
   ErrorState
-} from './styles/MailchimpForm.styled.js'
+} from './MailchimpForm.styled.js'
  
 
 function Subscribe() {

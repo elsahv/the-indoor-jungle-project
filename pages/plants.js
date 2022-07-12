@@ -48,6 +48,7 @@ export default function Home({posts}) {
         ))}
           </PostsGrid>
           <MailchimpForm />
+          {/* aside styles */}
       </GridContainer>
       
 
