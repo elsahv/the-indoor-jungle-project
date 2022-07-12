@@ -1,5 +1,5 @@
 import {
-  // FooterBanner,
+  FooterBanner,
     FooterSection,
     FooterMenu1, 
     FooterMenu2,
@@ -14,9 +14,9 @@ import {
 export default function Footer() {
   return (
     <>
-        {/* <FooterBanner> 
+        <FooterBanner> 
           Footer Banner
-        </FooterBanner> */}
+        </FooterBanner>
     <FooterSection>
 
     <FooterMenu1>

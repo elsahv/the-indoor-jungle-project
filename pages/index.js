@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 import { sanityClient, urlFor } from "../client"  
 import SubscribeCta from '../components/SubscribeCta'
-import Aside from '../components/Aside'
 import {
   Wrapper
 } from '../components/styles/Banner.styled'
@@ -57,7 +56,6 @@ export default function Home({posts}) {
         ))}
           </IndexPostGrid>
       </TestWrapper>
-          <Aside />
       </IndexWrapperGrid>
     <SubscribeCta />
     </>
