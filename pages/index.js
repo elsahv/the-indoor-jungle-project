@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Link from "next/link"
-
 import { sanityClient, urlFor } from "../client"  
-import SubscribeCta from '../components/IndexCTA'
 
+import IndexCTA from '../components/IndexCTA'
 
 import {
   Wrapper
@@ -29,7 +28,7 @@ export default function Home({posts}) {
       </Head>
 
        <Wrapper>
-     {/* A novice gardener... who lives among houseplants and annoying squirrels...  */}
+    A blog about novice gardening... while living amongst houseplants and annoying squirrels... 
      </Wrapper>
       <Title>MOST RECENT POSTS </Title>
 
@@ -53,10 +52,8 @@ export default function Home({posts}) {
         ))}
           </IndexGrid>
       </GridContainer>
-
-    
-      
-    <SubscribeCta />
+     
+     <IndexCTA />
     </>
   )
 }

@@ -1,6 +1,4 @@
 import MailchimpForm from '../../MailchimpForm'
-
-
 import {
     MailchimpWrapper,
     CTA,
@@ -16,7 +14,7 @@ const SubscribeCTA = () => {
       <MailchimpWrapper>
       <CTA>
         <h2>Newsletter</h2>
-        Grow with me as I write about plants and fish keeping!
+        <span>Grow with me as I write about plants and fish keeping!</span>
         </CTA>
 
           <MailchimpContainer>

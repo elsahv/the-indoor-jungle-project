@@ -4,6 +4,8 @@ import axios from 'axios'
 import {
   SubscribeContainer,
   SubFormContainer,
+  Input,
+  Button,
   SuccessState,
   ErrorState
 } from './MailchimpForm.styled.js'
@@ -30,45 +32,37 @@ function Subscribe() {
   }
 
   return (
-    <SubscribeContainer>
-      <form onSubmit={subscribe}>
-        
-        
+     <>
+      <SubscribeContainer onSubmit={subscribe}>
         <SubFormContainer>
-          <div className="form-input">
-            <input
-              required
-              id="email-input"
-              name="email"
-              type="email"
-              placeholder="email address"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
 
+              <Input
+                required
+                name="email"
+                type="email"
+                placeholder="email address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
 
-          <div className="sub-form-btn">
-            <button
+            <Button
               disabled={state === 'Loading'}
               type="submit"
-              className="form-btn"
               onClick={subscribe}
             >
               Subscribe
-            </button>
-          </div>
-
+            </Button>
 
         </SubFormContainer>
-        {state === 'Error' && (
-          <ErrorState>{errorMsg}</ErrorState>
-        )}
-        {state === 'Success' && (
-          <SuccessState>Awesome, you've been subscribed!</SuccessState>
-        )}
-      </form>
+            {state === 'Error' && (
+              <ErrorState>{errorMsg}</ErrorState>
+            )}
+            {state === 'Success' && (
+              <SuccessState>Awesome, you've been subscribed!</SuccessState>
+            )}
+
     </SubscribeContainer>
+    </>  
   )
 }
 
