@@ -1,17 +1,18 @@
 import styled from 'styled-components'
 
 
-//INDEX 
+ 
 
 
 
 export const SubscribeContainer = styled.div`
 margin-left: 55px;
-width: 345px;
+margin-top: 100px;
+width: 705px;
 height: 300px;
 padding: 45px 25px 25px 35px;
   border: 2px solid black;
-  // background: #2d6a4f;
+  background: #2d6a4f;
   .sub-header { 
     font-size: 1.25rem;
     font-weight: bold;
@@ -99,5 +100,4 @@ export const ErrorState = styled.p`
 
 
 
-
-//PAGES
+ 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+
 import {
   SubscribeContainer,
   SubFormContainer,
@@ -7,6 +8,8 @@ import {
   ErrorState
 } from './MailchimpForm.styled.js'
  
+
+
 
 function Subscribe() {
   const [email, setEmail] = useState('')
@@ -59,7 +62,7 @@ function Subscribe() {
           </div>
         </SubFormContainer>
         {state === 'Error' && (
-          <ErrorState className="error-state">{errorMsg}</ErrorState>
+          <ErrorState>{errorMsg}</ErrorState>
         )}
         {state === 'Success' && (
           <SuccessState>Awesome, you've been subscribed!</SuccessState>
