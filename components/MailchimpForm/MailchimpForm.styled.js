@@ -6,32 +6,27 @@ import styled from 'styled-components'
 
 
 export const SubscribeContainer = styled.div`
-margin-left: 55px;
-margin-top: 100px;
-width: 705px;
-height: 300px;
-padding: 45px 25px 25px 35px;
-  border: 2px solid black;
-  background: #2d6a4f;
-  .sub-header { 
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  .sub-text {
-  color: darkgreen;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 1.5;
-  }
+width: 100%;
+padding: 10px 10px 10px 20px;
+  // border: 2px solid black;
+  // background: #2d6a4f;
+
+   
 @media only screen and (max-width: 600px) {
 margin: 20px;
 }
 `
+
+// export const CTATitle = styled.div`
+// font-size: 1.25rem;
+// font-weight: bold;
+// padding: 5px;
+// `
+
 export const SubFormContainer = styled.div`
   display: flex;
-  width: 100%;
   align-items: center;
-  @media (max-width: 531px) {
+  @media (max-width: 600px) {
     width: 100%;
     display: block;
   }
@@ -41,13 +36,10 @@ export const SubFormContainer = styled.div`
     justify-content: space-between;
     font-size: 16px;
     @media (max-width: 531px) {
-      display: block;
-    }
+      display: block;    }
   }
   .form-input input {
-    outline: #f9fafb;
-    display: block;
-    width: 100%;
+    // width: 100%;
     background-color: #f9fafb;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -63,6 +55,8 @@ export const SubFormContainer = styled.div`
   }
   .sub-form-btn {
     margin-left: 10px;
+    margin-right: 5px;
+
     .form-btn {
       padding-top: 0.7rem;
       padding-bottom: 0.7rem;
@@ -83,7 +77,7 @@ export const SubFormContainer = styled.div`
         cursor: not-allowed;
       }
     }
-    @media (max-width: 531px) {
+    @media (max-width: 600px) {
       margin-top: 10px;
       margin-left: 0;
     }

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from "next/link"
 
 import { sanityClient, urlFor } from "../client"  
-import MailchimpForm from '../components/MailchimpForm'
+import Aside from '../components/Aside'
 import {
   BlogWrapper
 } from '../components/styles/Banner.styled'
@@ -11,6 +11,7 @@ import {
   PostTitle,
   GridContainer,
   PostsGrid,
+  AsideWrapper
 } from '../components/styles/IndexGrid.styled'
 
 
@@ -47,8 +48,10 @@ export default function Home({posts}) {
            </Link>
         ))}
           </PostsGrid>
-          <MailchimpForm />
-          {/* aside styles */}
+          {/* <AsideWrapper> */}
+          <Aside />
+          {/* </AsideWrapper> */}
+           
       </GridContainer>
       
 

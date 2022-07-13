@@ -87,7 +87,7 @@ grid-area: a;
 ` 
 
 
- 
+//PAGES 
 
 export const PostsGrid = styled.div`
 display: grid;
@@ -138,5 +138,9 @@ grid-area: a;
 }
 ` 
  
+export const AsideWrapper = styled.div`
+background: green;
+`
 
+ 
   

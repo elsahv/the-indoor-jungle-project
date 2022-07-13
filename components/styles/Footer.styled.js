@@ -15,7 +15,7 @@ border-top: solid 2px black;
 
 
 export const FooterSection = styled.footer`
-height: 250px;
+height: 25  0px;
 background: teal;
 border-top: solid 3px black;
 display: flex;

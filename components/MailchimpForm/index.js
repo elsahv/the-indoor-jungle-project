@@ -18,10 +18,8 @@ function Subscribe() {
 
   const subscribe = async (e) => {
     e.preventDefault()
-
     setState('Loading')
-
-    try {
+    try { 
       const response = await axios.post('/api/subscribeApi', { email })
       setState('Success')
       setEmail('')
@@ -33,11 +31,9 @@ function Subscribe() {
 
   return (
     <SubscribeContainer>
-      <h4 className="sub-header">Subscribe to the newsletter</h4>
-      <p className="sub-text">
-    Grow with me as I write about plants and fish keeping!
-      </p>
       <form onSubmit={subscribe}>
+        
+        
         <SubFormContainer>
           <div className="form-input">
             <input
@@ -50,6 +46,8 @@ function Subscribe() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
+
+
           <div className="sub-form-btn">
             <button
               disabled={state === 'Loading'}
@@ -60,6 +58,8 @@ function Subscribe() {
               Subscribe
             </button>
           </div>
+
+
         </SubFormContainer>
         {state === 'Error' && (
           <ErrorState>{errorMsg}</ErrorState>

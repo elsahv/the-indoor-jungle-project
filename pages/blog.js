@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Link from "next/link"
 
 import { sanityClient, urlFor } from "../client"  
-import MailchimpForm from '../components/MailchimpForm'
-
+import Aside from '../components/Aside'
 import {
   BlogWrapper
 } from '../components/styles/Banner.styled'
@@ -49,7 +48,7 @@ export default function Home({posts}) {
         ))}
           </PostsGrid>
 
-      <MailchimpForm />
+      <Aside />
 
       </GridContainer>
         {/* categories */}
