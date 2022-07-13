@@ -2,12 +2,12 @@ import Link from 'next/link'
 import { FaFacebookF,
     FaInstagram,
     FaPinterestP } from "react-icons/fa";
-import Sidebar from './Sidebar';
+import Sidebar from '../Sidebar';
 import {
   NavSection,
    NavLinks,
     Logo, SmIcons
-} from './styles/Header.styled'
+} from './Header.styled'
 
 
 const Header = () => {

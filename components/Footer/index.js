@@ -6,7 +6,7 @@ import {
     FooterMenu2,
     FooterMenuTitle,
     FooterMenuItem
-} from './styles/Footer.styled'
+} from './Footer.styled'
 
 
 

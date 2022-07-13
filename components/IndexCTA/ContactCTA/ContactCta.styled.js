@@ -1,46 +1,6 @@
 import styled from 'styled-components'
 
-
-export const Wrapper = styled.section`
-// background: silver ; 
-margin: 150px 0;
-padding: 0 250px;
-border-top: solid 3px black;
-
-@media only screen and (max-width: 1024px) {
-  padding: 0 75px;
-}
-@media only screen and (max-width: 600px) {
-  padding: 0 25px;
-}
-`
-
-
-
-export const MailchimpWrapper = styled.section`
-background-image: url('/images/plants.jpg');
-height: 200px;
-margin-left: 500px;
-margin-top: 100px;
-border: solid 2px black;
-display: flex;
-justify-content: center;
-`
-
-export const CTA = styled.div`
-padding: 45px;
-color: #fff;
-text-shadow: 2px 2px 2px #000;
-`
-
-export const MailchimpContainer = styled.div`
-  width: 600px; 
-  background: green;
-  padding: 55px 15px;
-
-`
-
-
+//ABOUT SECTION
 
 export const AboutContainer = styled.section`
 height: 400px;
@@ -82,7 +42,7 @@ p {
 @media only screen and (max-width: 1024px) {
   padding: 0 15px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 531px) {
   h2 {
     font-size: 15px;
   }
@@ -107,7 +67,3 @@ margin: 10px auto;
 }
 
 `
-
-
-
- 

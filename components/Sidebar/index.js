@@ -10,7 +10,7 @@ import {
     MenuOpen,
     MenuClose,
     SidebarLinks
-  } from './styles/Sidebar.styled'
+  } from './Sidebar.styled'
 
 
 const Sidebar = () => {

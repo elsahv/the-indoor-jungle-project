@@ -16,12 +16,7 @@ padding: 10px 10px 10px 20px;
 margin: 20px;
 }
 `
-
-// export const CTATitle = styled.div`
-// font-size: 1.25rem;
-// font-weight: bold;
-// padding: 5px;
-// `
+ 
 
 export const SubFormContainer = styled.div`
   display: flex;

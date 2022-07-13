@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from "next/link"
 
 import { sanityClient, urlFor } from "../client"  
-import SubscribeCta from '../components/IndexCta'
+import SubscribeCta from '../components/IndexCTA'
 
 
 import {
