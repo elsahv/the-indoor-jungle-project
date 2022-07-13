@@ -45,15 +45,23 @@ export const MailchimpContainer = styled.div`
 export const AboutContainer = styled.section`
 height: 400px;
 margin: 100px 0;
-background: maroon;
+// background: maroon;
 display: flex;
 // border: solid 2px black;
  
     
 @media only screen and (max-width: 1024px) {
 display: flex;
-flex-direction: column;
+// flex-direction: column;
 }
+@media only screen and (max-width: 600px) {
+  display: flex;
+  flex-direction: column;
+height: 700px;
+width: 320px;
+margin: 50px auto;
+
+  }
 `
  
 
@@ -79,7 +87,7 @@ p {
     font-size: 15px;
   }
   p {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 `
@@ -92,6 +100,12 @@ position: relative;
   width: 310px;
 height: 360px;
 }
+@media only screen and (max-width: 600px) {
+  width: 210px;
+height: 350px;
+margin: 10px auto;
+}
+
 `
 
 
