@@ -11,7 +11,8 @@ import {
   PostTitle,
   GridContainer,
   PostsGrid,
-} from '../components/styles/IndexGrid.styled'
+  AsideContainer
+} from '../components/styles/PostsGrid.styled'
 
 
 
@@ -28,8 +29,10 @@ export default function Home({posts}) {
       <BlogWrapper>
         Blog  
      </BlogWrapper>
-   
+
       <GridContainer>  
+
+
       <PostsGrid> 
         {posts &&
         posts.map((post, index) => (   
@@ -47,14 +50,15 @@ export default function Home({posts}) {
            </Link>
         ))}
           </PostsGrid>
-
-      <Aside />
-
+          
+          <AsideContainer>
+          <Aside />
+          </AsideContainer>
+           
       </GridContainer>
-        {/* categories */}
     </>
   )
-}
+} 
 
 
 export const getServerSideProps = async () => {

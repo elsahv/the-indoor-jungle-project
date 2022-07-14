@@ -11,8 +11,7 @@ export default function Footer() {
   return (
     <>
     <FooterWrapper>
-     footer
-      
+      <div>The Indoor Jungle Project- Copyright @ 2022</div>
   </FooterWrapper>
   </>
 
