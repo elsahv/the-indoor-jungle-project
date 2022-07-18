@@ -20,7 +20,7 @@ const ContactForm = () => {
     </Title>
     <Wrapper>
        <p>I am currently available for work, you can reach me at:</p>
-        <a href="mailto:elsahovey@gmail.com"> elsahovey@gmail.com</a>
+        <a href="mailto:elsahoveydevdesigns@gmail.com">elsahoveydevdesigns@gmail.com</a>
         </Wrapper>
         
         <p>You can also find me on:</p>
