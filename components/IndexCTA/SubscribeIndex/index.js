@@ -1,4 +1,4 @@
-import MailchimpForm from '../MailchimpForm'
+import MailchimpForm from '../../MailchimpForm'
 import styled from 'styled-components'
 
 

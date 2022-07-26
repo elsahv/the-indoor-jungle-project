@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Link from "next/link"
+
+
 import { sanityClient, urlFor } from "../client"  
 import IndexCTA from '../components/IndexCTA'
 import {
@@ -11,6 +13,9 @@ import {
   GridContainer,
   IndexGrid,
 } from '../components/styles/IndexGrid.styled'
+
+
+
 
 
 export default function Home({posts}) {
