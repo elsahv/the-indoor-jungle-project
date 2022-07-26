@@ -15,38 +15,26 @@ const Post = ({
   title,
   mainImage,
   body,
-  publishedAt
 }) => {
   return (
     <Wrapper>
        <BlogWrapper>
      <Title>{title}</Title>
-        
         </BlogWrapper>
       <ImageSection>
               <img
                  src={urlFor(mainImage)}
                  alt=""
                  className="img"
-                //  width={1000}
-                //  height={500}
                  />
       </ImageSection>
-     {/* <Title>{title}</Title> */}
      <br />
-
       <BodyContent>
-
-       
       <hr />
-      
          <PortableText value={body} />
       <hr />
       </BodyContent>
-
       <br />
-
-
     </Wrapper>
   )
 }

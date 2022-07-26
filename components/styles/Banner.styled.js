@@ -28,7 +28,7 @@ border-bottom: solid 2px #000;
 
 export const BlogWrapper = styled.div`
 grid-area: b;
-padding: 25px;
+padding: 75px 0;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -40,13 +40,9 @@ color: #fff;
 border-bottom: solid 2px #000;
 text-transform: capitalize;
 
+ 
+@media only screen and (max-width: 531px) {
 
-@media only screen and (max-width: 1024px) {
-    font-size: 23px;
-    // padding: 75px;
-    
-}
-@media only screen and (max-width: 768px) {
 }
 `
  

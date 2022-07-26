@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from "next/link"
 import { sanityClient, urlFor } from "../client"  
-import About from '../components/About'
+import IndexCTA from '../components/IndexCTA'
 import {
   Wrapper
 } from '../components/styles/Banner.styled'
@@ -47,7 +47,7 @@ export default function Home({posts}) {
         ))}
           </IndexGrid>
       </GridContainer>
-           <About />
+           <IndexCTA />
     </>
   )
 }
