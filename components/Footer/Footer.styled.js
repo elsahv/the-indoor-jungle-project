@@ -5,7 +5,9 @@ import styled from 'styled-components'
  
 
 export const FooterWrapper = styled.footer`
-// border-top: solid 3px black;
+background: #2d6a4f;
+border-top: solid 2px black;
+margin-top: 20px;
 color: maroon;  
 position: relative;
 width: 100%;
@@ -21,4 +23,13 @@ justify-content: center;
 }
 `
 
+export const Item = styled.div`
+margin: 0 50px;
+a {
+    color: black;
+    text-decoration: none;
+}
+ 
+}
+`
  

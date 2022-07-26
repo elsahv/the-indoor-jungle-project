@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 background: #2a9d8f;
 border: solid 2px black;
-margin: 100px 0px;
+margin: 100px 0px 0;
 // height: 300px;
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -150,7 +150,43 @@ export const MailchimpContainer = styled.div`
   }
 `
 
+export const PhotosSection = styled.div`
+// background-image: url('/images/plants.jpg');
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-areas:
+'a b c d';
 
 
+
+
+`
+
+
+export const Photo1 = styled.div`
+grid-area: a;
+background-image: url('/images/plant1.jpg');
+width: 400px;
+height: 420px;
+`
  
+export const Photo2 = styled.div`
+grid-area: b;
+background-image: url('/images/plant2.jpg');
+width: 400px;
+height: 420px;
+
+`
+export const Photo3 = styled.div`
+grid-area: c;
+background-image: url('/images/plants.jpg');
+width: 400px;
+height: 420px;
+`
+export const Photo4 = styled.div`
+grid-area: d;
+background-image: url('/images/plant6.jpg');
+width: 400px;
+height: 420px;
+`
  

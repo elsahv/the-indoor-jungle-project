@@ -1,6 +1,7 @@
+import Link from 'next/link'
 import {
   FooterWrapper,
- 
+ Item
 } from './Footer.styled'
 
 
@@ -11,7 +12,12 @@ export default function Footer() {
   return (
     <>
     <FooterWrapper>
-      <div>The Indoor Jungle Project- Copyright @ 2022</div>
+      <Item>The Indoor Jungle Project- Copyright @ 2022</Item>
+      <Item>
+        <Link href="/contact">
+        Contact
+        </Link>
+        </Item>
   </FooterWrapper>
   </>
 

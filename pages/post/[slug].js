@@ -6,9 +6,11 @@ import {
   Title,
   BodyContent
 } from '../../components/styles/post.styled'
+
+import {
+  BlogWrapper
+} from '../../components/styles/Banner.styled'
  
-
-
 const Post = ({
   title,
   mainImage,
@@ -17,8 +19,10 @@ const Post = ({
 }) => {
   return (
     <Wrapper>
-
-<Title>{title}</Title>
+       <BlogWrapper>
+     <Title>{title}</Title>
+        
+        </BlogWrapper>
       <ImageSection>
               <img
                  src={urlFor(mainImage)}
@@ -28,14 +32,18 @@ const Post = ({
                 //  height={500}
                  />
       </ImageSection>
+     {/* <Title>{title}</Title> */}
+     <br />
 
-
-      {/* <hr /> */}
       <BodyContent>
-         <PortableText value={body} />
-        </BodyContent>
 
-      {/* <hr /> */}
+       
+      <hr />
+      
+         <PortableText value={body} />
+      <hr />
+      </BodyContent>
+
       <br />
 
 
