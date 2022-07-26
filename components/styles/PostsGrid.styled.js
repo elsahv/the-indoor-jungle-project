@@ -2,8 +2,6 @@ import styled from 'styled-components'
 
 
 
-
-
 export const Title = styled.div` 
 text-align: center;
 font-size: 25px;
@@ -27,7 +25,9 @@ text-shadow: 2px 2px 2px black;
 `
 
  export const GridContainer= styled.div` 
-//  background: red;
+ margin-bottom: 150px;
+ margin-top: 20px;
+//  background: maroon;
  width: 100%;
  display: grid;
  grid-template-columns: repeat(2, 1fr);

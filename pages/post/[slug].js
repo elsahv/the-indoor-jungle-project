@@ -2,14 +2,11 @@ import { sanityClient, urlFor } from "../../client"
 import { PortableText } from '@portabletext/react'
 import {
   Wrapper,
-  // Breadcrumbs,
   ImageSection,
   Title,
   BodyContent
 } from '../../components/styles/post.styled'
-import {
-  BlogWrapper
-} from '../../components/styles/Banner.styled'
+ 
 
 
 const Post = ({
@@ -17,16 +14,11 @@ const Post = ({
   mainImage,
   body,
   publishedAt
-
- 
 }) => {
   return (
     <Wrapper>
-   {/* <Breadcrumbs>
-   breadcrumbs
-   </Breadcrumbs> */}
-     <BlogWrapper>
-     </BlogWrapper>
+
+<Title>{title}</Title>
       <ImageSection>
               <img
                  src={urlFor(mainImage)}
@@ -37,17 +29,15 @@ const Post = ({
                  />
       </ImageSection>
 
+
+      {/* <hr /> */}
       <BodyContent>
-
-      <Title>{title}</Title>
-      Published on: <div>{new Date(publishedAt).toDateString()}</div>
-
-      <hr />
- 
          <PortableText value={body} />
         </BodyContent>
 
-      <hr />
+      {/* <hr /> */}
+      <br />
+
 
     </Wrapper>
   )
