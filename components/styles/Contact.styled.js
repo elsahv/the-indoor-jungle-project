@@ -6,9 +6,9 @@ import styled from 'styled-components'
 //STYLES
 
 export const ExternalWrapper = styled.div`
+// background: teal;
 text-align: center;
 font-weight: bold;
-height: 900px;
 h2 {
   padding: 10px;
 }

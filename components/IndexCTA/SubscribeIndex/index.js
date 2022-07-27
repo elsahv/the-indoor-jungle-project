@@ -14,10 +14,14 @@ const SubscribeCTA = () => {
     <MailchimpWrapper>
     <CTA>
       <ContentTitle>
-        Newsletter
+        A weekly newsletter about finding creativity
         </ContentTitle>
+
       <ContentParagraph>
-        Grow with me as I write about plants and fish keeping! Lorem ipsum dolor sit amet cons blanditiis, neque alias possimus excepturi veniam quae qui facere et temporibus deserunt nemo.
+        I like to write about creating things... whether it involves gardening, or posting updates about 
+        <a href="https://elsahovey.com/#portfolio">
+        my other website projects. 
+        </a>
         </ContentParagraph>
       </CTA>
         <MailchimpContainer>

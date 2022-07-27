@@ -19,7 +19,8 @@ const ContactForm = () => {
     Contact Info
     </Title>
     <Wrapper>
-       <p>I am currently available for work, you can reach me at:</p>
+      <p>I build websites for small businesses and creatives.</p>
+       <p>For business inquiries... you can reach me at:</p>
         <a href="mailto:elsahoveydevdesigns@gmail.com">elsahoveydevdesigns@gmail.com</a>
         </Wrapper>
         

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import profilePic from '../../../public/images/about-img.jpg'
 import {
   AboutContainer,
@@ -21,7 +22,11 @@ const SubscribeCta = () => {
              About
           </ContentTitle>
            <ContentBody>
-            Welcome to the Indoor Jungle Project! I'm Elsa, the novice gardener who lives among houseplants and annoying squirrels. I've started this website to practice my web development skills, and to catalog everything I've learned about my growing plants indoors.
+            Welcome to the Indoor Jungle Project! I'm
+             <Link href="/contact">
+             Elsa,
+             </Link>
+              the novice gardener who lives among houseplants and annoying squirrels. I've started this website to practice my web development skills, and to catalog everything I've learned about my growing plants indoors.
             </ContentBody>
             </ContentSection>
            <ImgWrapper>

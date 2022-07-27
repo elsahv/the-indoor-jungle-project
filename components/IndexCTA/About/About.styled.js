@@ -88,6 +88,10 @@ grid-area: content;
 `
 
 export const ContentBody = styled.p`
+a {
+  color: #000;
+  padding: 0 5px;
+}
 `
 
 //END STYLES

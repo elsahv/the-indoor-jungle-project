@@ -54,6 +54,10 @@ export const ContentParagraph = styled.p`
 font-size: 18px;
 padding-top: 10px;
 color: #000;
+a {
+  color: #000;
+  padding: 0 6px;
+}
 
 @media only screen and (max-width: 834px) {
    font-size: 18px;

@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Link from "next/link"
-
-
 import { sanityClient, urlFor } from "../client"  
 import IndexCTA from '../components/IndexCTA'
 import {
