@@ -1,5 +1,6 @@
 import SubscribeIndex from './SubscribeIndex'
 import About from './About'
+import Photogallery from './Photogallery'
 import styled from 'styled-components'
  
 

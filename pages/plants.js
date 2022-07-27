@@ -29,8 +29,8 @@ export default function Home({posts}) {
       <BlogWrapper>
         Plants  
      </BlogWrapper>
-      <GridContainer>  
 
+      <GridContainer>  
       <PostsGrid> 
         {posts &&
         posts.map((post, index) => (   

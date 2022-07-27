@@ -5,26 +5,25 @@ import {
   ContentWrapper,
   ImgWrapper,
   ContentTitle,
-  ContentParagraph
+  ContentSection,
+  ContentBody
 } from './About.styled' 
 
-
- 
 
 
 const SubscribeCta = () => {
   return (
     <>  
       <AboutContainer>
-
         <ContentWrapper>
-
-          <ContentParagraph>
+          <ContentSection>
           <ContentTitle>
              About
           </ContentTitle>
-            Welcome to the Indoor Jungle Project! I'm Elsa, the novice gardener who lives among houseplants and annoying squirrels. I've started this website to practice my web development skills, and to catalog everything I've learned about my growing plants indoors.</ContentParagraph>
-          
+           <ContentBody>
+            Welcome to the Indoor Jungle Project! I'm Elsa, the novice gardener who lives among houseplants and annoying squirrels. I've started this website to practice my web development skills, and to catalog everything I've learned about my growing plants indoors.
+            </ContentBody>
+            </ContentSection>
            <ImgWrapper>
             <Image
               src={profilePic}
@@ -32,9 +31,7 @@ const SubscribeCta = () => {
               layout="responsive"
           />
           </ImgWrapper>
-          
             </ContentWrapper>
-
       </AboutContainer>
 </>
   )

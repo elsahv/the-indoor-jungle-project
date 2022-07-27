@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import profilePic from '../../public/images/about-img.jpg'
-import plantpic1 from '../../public/images/plant1.jpg'
-import plantpic2 from '../../public/images/plant2.jpg'
-import plantpic3 from '../../public/images/plant6.jpg'
+import profilePic from '../../../public/images/about-img.jpg'
+import plantpic1 from '../../../public/images/plant1.jpg'
+import plantpic2 from '../../../public/images/plant2.jpg'
+import plantpic3 from '../../../public/images/plant6.jpg'
 import {
   PhotosSection,
   Photo1,
@@ -18,12 +18,13 @@ import {
 const Photogallery = () => {
   return (
        <PhotosSection>
-
         <Photo1>
         <Image
          src={profilePic}
          alt="about-me"
          layout="responsive"
+        //  width={50}
+        //  height={60}
           />
         </Photo1>
 
@@ -33,8 +34,8 @@ const Photogallery = () => {
          src={plantpic1}
          alt="photo"
          layout="responsive"
-         width={130}
-         height={100}
+        //  width={50}
+        //  height={60}
          />
         </Photo2>
 
@@ -44,8 +45,8 @@ const Photogallery = () => {
          src={plantpic2}
          alt="photo"
          layout="responsive"
-         width={130}
-         height={100}
+        //  width={50}
+        //  height={60}
           />
         </Photo3>
 
@@ -54,8 +55,8 @@ const Photogallery = () => {
          src={plantpic3}
          alt="photo"
          layout="responsive"
-         width={130}
-         height={100}
+        //  width={50}
+        //  height={60}
           />
 
         </Photo4>

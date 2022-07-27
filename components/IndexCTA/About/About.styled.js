@@ -73,19 +73,21 @@ padding-top: 55px
 }
 `
 
-export const ContentParagraph = styled.p`
+export const ContentSection = styled.div`
 padding: 25px;
 font-size: 18px;
 grid-area: content;
 // background: pink;
 
 @media only screen and (max-width: 834px) {
-   font-size: 18px;
+  padding: 10px 0;
 }
 
 @media only screen and (max-width: 531px) {
-  font-size: 18px;
 }
+`
+
+export const ContentBody = styled.p`
 `
 
 //END STYLES

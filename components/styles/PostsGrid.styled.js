@@ -25,8 +25,6 @@ text-shadow: 2px 2px 2px black;
 `
 
  export const GridContainer= styled.div` 
- margin-bottom: 150px;
- margin-top: 20px;
 //  background: maroon;
  width: 100%;
  display: grid;
@@ -45,6 +43,9 @@ text-shadow: 2px 2px 2px black;
 }
 
 @media only screen and (max-width: 768px) {
+ margin-top: 50px;
+ height: 1250px;
+
 }
 `
  
@@ -83,7 +84,6 @@ grid-area: a;
 
 
 @media only screen and (max-width: 1024px) {
-  padding-top: 145px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 340px);
@@ -118,18 +118,13 @@ padding-left: 20px;
 width: 100%;
 display: flex;
 justify-content: center;
-height: 200px;
-padding: 80px;
+ 
 }
 
 
 @media only screen and (max-width: 531px) {
- padding: 0;
- width: 350px;
-height: 100px;
-margin-left: 5px;
-margin-right: 5px;
-margin-top: 50px;
+padding-left: 0; 
+
 
   }
 `
