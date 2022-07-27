@@ -6,23 +6,24 @@ import {
 
  import {
   Title,
-  Wrapper,
+  Body,
   SmIcons,
-  ExternalWrapper
+  Wrapper
  } from '../components/styles/Contact.styled.js'
 
 const ContactForm = () => {
   return (
     <>
-    <ExternalWrapper>
+    <Wrapper>
+
     <Title>
     Contact Info
     </Title>
-    <Wrapper>
+
+    <Body>
       <p>I build websites for small businesses and creatives.</p>
        <p>For business inquiries... you can reach me at:</p>
         <a href="mailto:elsahoveydevdesigns@gmail.com">elsahoveydevdesigns@gmail.com</a>
-        </Wrapper>
         
         <p>You can also find me on:</p>
 
@@ -30,7 +31,6 @@ const ContactForm = () => {
        <a className="sm-icon" href="http://github.com/elsahv"> 
             <FaGithub />
             </a>
-
       <a className="sm-icon" href="https://linkedin.com/in/elsa-hovey"> 
             <FaLinkedin />
             </a>
@@ -38,7 +38,8 @@ const ContactForm = () => {
             <FaInstagram />
             </a>
             </SmIcons>
-            </ExternalWrapper>
+              </Body>
+            </Wrapper>
     </>
   )
 }
