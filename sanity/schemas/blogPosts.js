@@ -36,6 +36,12 @@ export default {
         }
       },
       {
+        name: 'images',
+        title: 'Images',
+        type: 'array',
+        of: [{ type: 'postImage' }],
+      },
+      {
         name: 'body',
         title: 'Body',
         type: 'blockContent',

@@ -1,3 +1,4 @@
+import Image from "../../components/Image"
 import { sanityClient, urlFor } from "../../client"
 import { PortableText } from '@portabletext/react'
 import {
@@ -14,6 +15,7 @@ import {
 const Post = ({
   title,
   mainImage,
+  images,
   body,
 }) => {
   return (
@@ -30,6 +32,11 @@ const Post = ({
       </ImageSection>
      <br />
       <BodyContent>
+      <div>
+            {images.map(({ _key, asset }, image) => (
+            <Image key={_key} identifier="image" image={asset} />
+          ))}
+            </div>
       <hr />
          <PortableText value={body} />
       <hr />
@@ -45,6 +52,7 @@ export const getServerSideProps = async (pageContext) => {
   const query = `*[_type in ["plants", "blogPosts"] && slug.current == $pageSlug][0]{
     title,
     mainImage,
+    images,
     body,
     publishedAt
 
@@ -63,6 +71,7 @@ export const getServerSideProps = async (pageContext) => {
       props: {
         title: post.title,
         mainImage: post.mainImage,
+        images: post.images,
         body: post.body,
       },
     }
