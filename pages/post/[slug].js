@@ -1,4 +1,3 @@
-// import Image from "../../components/Image"
 import { sanityClient, urlFor } from "../../client"
 import { PortableText } from '@portabletext/react'
 import {
@@ -53,11 +52,6 @@ const Post = ({
       </ImageSection>
      <br />
       <BodyContent>
-      {/* <div>
-            {images.map(({ _key, asset }, image) => (
-            <Image key={_key} identifier="image" image={asset} />
-          ))}
-            </div> */}
       <hr />
       <PortableText value={body} components={PostComponents} />
       <hr />

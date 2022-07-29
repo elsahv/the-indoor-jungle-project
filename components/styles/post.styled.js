@@ -2,8 +2,6 @@ import styled from 'styled-components'
  
 
 export const Wrapper = styled.div`
-text-align: center;
-
 @media only screen and (max-width: 1024px) {
 }
 `
@@ -42,16 +40,18 @@ padding: 65px 0;
   
 export const Title = styled.h2`
 font-size: 30px;
-
+text-align: center;
+padding-top: 10px;
 @media only screen and (max-width: 1024px) {
 }
 `
 
 export const BodyContent = styled.div`
+text-align: left;
+
  font-size: 17px;
  line-height: 2em;
- margin: 10px 505px 40px;
-//  color: #fff;
+ margin: 10px 505px 40px; 
 
  @media only screen and (max-width: 1024px) {
    margin: 20px 100px;
