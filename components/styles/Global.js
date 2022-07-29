@@ -8,10 +8,12 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 
+ html {
+  scroll-behavior: smooth;
+ }
+
   body {
-    
     font-family: 'Teko', sans-serif;
-   
   }
 
   p {
