@@ -61,3 +61,20 @@ export const BodyContent = styled.div`
 }
 `
 
+
+export const ImagesWrapper = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+.images {
+  border: solid 1px black;
+  width: 400px;
+  margin: 30px 0;
+}
+
+@media only screen and (max-width: 531px) {
+.images {
+  width: 250px;
+}
+}
+`

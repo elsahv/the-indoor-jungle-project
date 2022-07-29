@@ -1,17 +1,38 @@
-import Image from "../../components/Image"
+// import Image from "../../components/Image"
 import { sanityClient, urlFor } from "../../client"
 import { PortableText } from '@portabletext/react'
 import {
   Wrapper,
   ImageSection,
   Title,
+  ImagesWrapper,
   BodyContent
 } from '../../components/styles/post.styled'
-
 import {
   BlogWrapper
 } from '../../components/styles/Banner.styled'
  
+
+const PostComponents = {
+  types: {
+    image: ({value}) => {
+      return (
+        <ImagesWrapper>
+        <img
+          alt={value.alt || ' '}
+          src={urlFor(value)}
+          layout="responsive"
+          className="images"
+          />
+          </ImagesWrapper>
+      )
+    }
+  }
+}
+
+
+
+
 const Post = ({
   title,
   mainImage,
@@ -32,13 +53,13 @@ const Post = ({
       </ImageSection>
      <br />
       <BodyContent>
-      <div>
+      {/* <div>
             {images.map(({ _key, asset }, image) => (
             <Image key={_key} identifier="image" image={asset} />
           ))}
-            </div>
+            </div> */}
       <hr />
-         <PortableText value={body} />
+      <PortableText value={body} components={PostComponents} />
       <hr />
       </BodyContent>
       <br />
