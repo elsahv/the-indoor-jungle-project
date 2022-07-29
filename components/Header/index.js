@@ -21,8 +21,7 @@ const Header = () => {
    </Link>
    </Logo> 
    <Link href="/blog">Blog</Link>
-
-       <Link href="/plants">Plant Types</Link>
+       <Link href="/contact">Contact</Link>
           <SmIcons> 
           <a href="http://pinterest.com"> 
         <FaPinterestP />

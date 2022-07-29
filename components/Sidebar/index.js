@@ -40,7 +40,7 @@ const Sidebar = () => {
                       <a>Home</a>
                     </Link>
                     <Link href="/blog">Blog</Link>
-               <Link href="/plants">Plant Types</Link>
+                    <Link href="/contact">Contact</Link>
                    
               </SidebarLinks>
               </div>

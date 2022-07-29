@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from "next/link"
 import { sanityClient, urlFor } from "../client"  
+import Card from '../components/Card'
 import IndexCTA from '../components/IndexCTA'
 import {
   Wrapper
@@ -52,7 +53,7 @@ export default function Home({posts}) {
       </GridContainer>
            <IndexCTA />
 
-           
+           <Card />
     </>
   )
 }
