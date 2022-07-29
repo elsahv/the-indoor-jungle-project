@@ -11,7 +11,6 @@ border-bottom: solid 2px #6a040f;
 background: #fff;
 z-index: 5000;  
 padding: 45px 0 20px 0;
-
 `
 
 export const NavLinks = styled.section`

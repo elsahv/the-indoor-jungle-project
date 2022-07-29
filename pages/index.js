@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Link from "next/link"
 import { sanityClient, urlFor } from "../client"  
-import Card from '../components/Card'
 import IndexCTA from '../components/IndexCTA'
+import Photogallery from '../components/IndexCTA/Photogallery'
 import {
   Wrapper
 } from '../components/styles/Banner.styled'
@@ -37,6 +37,7 @@ export default function Home({posts}) {
         {posts &&
         posts.map((post, index) => (   
           <Link href={`post/${post.slug.current}`}>
+            
             <span key={index}>
               <div className="square"> 
               <img
@@ -52,14 +53,13 @@ export default function Home({posts}) {
           </IndexGrid>
       </GridContainer>
            <IndexCTA />
-
-           <Card />
+           <Photogallery />
     </>
   )
 }
 
 export const getServerSideProps = async () => {
-  const query = '*[_type in ["blogPosts", "plants"]] | order(_createdAt desc)[0..5]'
+  const query = '*[_type == "blogPosts"]'
   const posts = await sanityClient.fetch(query)
 
   if (!posts.length) {

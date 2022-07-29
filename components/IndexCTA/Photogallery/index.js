@@ -1,10 +1,11 @@
 import Image from 'next/image'
-import profilePic from '../../../public/images/about-img.jpg'
-import plantpic1 from '../../../public/images/plant1.jpg'
-import plantpic2 from '../../../public/images/plant2.jpg'
-import plantpic3 from '../../../public/images/plant6.jpg'
+import profilePic from '../../../public/images/aerogarden.jpg'
+import plantpic1 from '../../../public/images/plant2.jpg'
+import plantpic2 from '../../../public/images/plant3.jpg'
+import plantpic3 from '../../../public/images/pothos.jpg'
 import {
-  PhotosSection,
+  Wrapper,
+  Grid,
   Photo1,
   Photo2,
   Photo3,
@@ -17,14 +18,13 @@ import {
 
 const Photogallery = () => {
   return (
-       <PhotosSection>
+    <Wrapper>
+       <Grid>
         <Photo1>
         <Image
          src={profilePic}
          alt="about-me"
-         layout="responsive"
-        //  width={50}
-        //  height={60}
+         layout="fill"
           />
         </Photo1>
 
@@ -33,9 +33,7 @@ const Photogallery = () => {
         <Image
          src={plantpic1}
          alt="photo"
-         layout="responsive"
-        //  width={50}
-        //  height={60}
+         layout="fill"
          />
         </Photo2>
 
@@ -44,9 +42,7 @@ const Photogallery = () => {
         <Image
          src={plantpic2}
          alt="photo"
-         layout="responsive"
-        //  width={50}
-        //  height={60}
+         layout="fill"
           />
         </Photo3>
 
@@ -54,14 +50,13 @@ const Photogallery = () => {
         <Image
          src={plantpic3}
          alt="photo"
-         layout="responsive"
-        //  width={50}
-        //  height={60}
+         layout="fill"
           />
 
         </Photo4>
 
-       </PhotosSection> 
+       </Grid> 
+       </Wrapper>
   )
 }
 
